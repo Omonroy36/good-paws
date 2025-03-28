@@ -20,3 +20,9 @@ def handle_hello():
     }
 
     return jsonify(response_body), 200
+
+@api.route('/login', methods=["POST"])
+def login():
+    #Mi logica de inicio de sesion
+    #Necesito JWT
+    pass
